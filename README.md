@@ -19,6 +19,11 @@ To contribute to the server, please follow these lists of basic guidelines:
 3. TBD
 
 
+## Development and Planning
+
+All planning and development work for this server currently happens in a [Trello board](https://trello.com/b/GOAlCZ40). This may move to a more FOSS-friendly solution as time goes on.
+
+
 ## Who
 
 The server is managed by [Justin W. Flory](https://github.com/jflory7) in part with FOSS@MAGIC.
