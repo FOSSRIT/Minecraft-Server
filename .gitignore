@@ -1,0 +1,14 @@
+# Spigot / PaperSpigot files and directories
+
+server/cache/
+server/crash-reports/
+server/logs/
+
+# Minecraft game data (can get large, not needed on git)
+
+server/world/
+server/world_nether/
+server/world_the_end/
+server/banned-ips.json
+server/banned-players.json
+server/eula.txt

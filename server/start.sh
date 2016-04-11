@@ -1,0 +1,1 @@
+java -Xms512M -Xmx512M -jar -Dcom.mojang.eula.agree=true server.jar
