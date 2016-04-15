@@ -75,16 +75,16 @@ world-settings:
     allow-non-player-entities-on-scoreboards: false
     grass-spread-tick-rate: 1
     fix-cannons: true
-    disable-explosion-knockback: false
     non-player-arrow-despawn-rate: -1
+    disable-explosion-knockback: false
     use-hopper-check: false
     baby-zombie-movement-speed: 0.5
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: true
     container-update-tick-rate: 1
     keep-spawn-loaded: true
+    queue-light-updates: true
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: -1.0
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    queue-light-updates: true
