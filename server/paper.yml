@@ -39,12 +39,12 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
+    disable-teleportation-suffocation-check: false
+    use-chunk-inhabited-timer: true
     portal-search-radius: 128
     spawner-nerfed-mobs-should-jump: false
     optimize-explosions: true
     mob-spawner-tick-rate: 1
-    disable-teleportation-suffocation-check: false
-    use-chunk-inhabited-timer: true
     use-vanilla-world-scoreboard-name-coloring: false
     squid-spawn-height:
       minimum: 45.0
@@ -75,16 +75,16 @@ world-settings:
     allow-non-player-entities-on-scoreboards: false
     grass-spread-tick-rate: 1
     fix-cannons: true
-    non-player-arrow-despawn-rate: -1
     disable-explosion-knockback: false
+    non-player-arrow-despawn-rate: -1
     use-hopper-check: false
     baby-zombie-movement-speed: 0.5
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: true
     container-update-tick-rate: 1
     keep-spawn-loaded: true
-    queue-light-updates: true
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: -1.0
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    queue-light-updates: true
