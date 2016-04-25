@@ -1,0 +1,28 @@
+# DO NOT EDIT -- file is written to periodically!
+# Seriously, do not edit. Today it is YAML, tomorrow it may not be.
+# If you edit this file and you have problems, you are on your own!
+players: []
+groups:
+- name: default
+  permissions: {}
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: RITStudent
+  permissions: {}
+  metadata: {}
+  priority: 100
+  parents:
+  - default
+  members: []
+  tempmembers: []
+- name: FOSSMAGIC
+  permissions: {}
+  metadata:
+    prefix: '&8[&bFOSS&4@&cM&eA&aG&9I&dC&8] &8'
+  priority: 1000
+  parents:
+  - RITStudent
+  members: []
+  tempmembers: []
