@@ -1,0 +1,103 @@
+16-04-25 17:18:53 [INFO] Logger started.
+16-04-25 17:18:53 [INFO] Logging system initialized.
+16-04-25 17:18:53 [INFO] Detected Minecraft version: 1.9.2
+16-04-25 17:18:59 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-25 17:18:59 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-25 17:18:59 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-25 17:18:59 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-25 17:18:59 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-25 17:18:59 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-25 17:18:59 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-25 17:18:59 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-25 17:18:59 [INFO] No packet level hooks activated.
+16-04-25 17:18:59 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-25 17:18:59 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b960 is enabled.
+16-04-25 17:18:59 [INFO] Post-enable running...
+16-04-25 17:18:59 [INFO] Post-enable finished.
+16-04-25 17:18:59 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-25 17:18:59 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-25 17:18:59 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-664 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b960
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b273
+16-04-25 17:19:01 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-25 17:19:01 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 |
+16-04-25 17:21:41 [INFO] Logger started.
+16-04-25 17:21:41 [INFO] Logging system initialized.
+16-04-25 17:21:41 [INFO] Detected Minecraft version: 1.9.2
+16-04-25 17:21:46 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-25 17:21:46 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-25 17:21:46 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-25 17:21:46 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-25 17:21:46 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-25 17:21:46 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-25 17:21:46 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-25 17:21:46 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-25 17:21:46 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-25 17:21:46 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-25 17:21:46 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b960 is enabled.
+16-04-25 17:21:46 [INFO] Post-enable running...
+16-04-25 17:21:46 [INFO] Post-enable finished.
+16-04-25 17:21:47 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-25 17:21:47 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-25 17:21:47 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-664 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b960
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b273
+16-04-25 17:21:50 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-25 17:21:50 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-25 17:38:59 [INFO] Logger started.
+16-04-25 17:38:59 [INFO] Logging system initialized.
+16-04-25 17:38:59 [INFO] Detected Minecraft version: 1.9.2
+16-04-25 17:39:03 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-25 17:39:03 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-25 17:39:03 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-25 17:39:03 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-25 17:39:03 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-25 17:39:03 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-25 17:39:03 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-25 17:39:03 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-25 17:39:03 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-25 17:39:03 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-25 17:39:03 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b960 is enabled.
+16-04-25 17:39:03 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-25 17:39:03 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-25 17:39:04 [INFO] Post-enable running...
+16-04-25 17:39:04 [INFO] Post-enable finished.
+16-04-25 17:39:04 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-664 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b960
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b273
+16-04-25 17:42:59 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-25 17:42:59 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
