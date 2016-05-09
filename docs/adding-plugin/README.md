@@ -3,14 +3,30 @@ Adding a plugin to the server
 
 Want to add a cool plugin to the server? Whether it's one you found online or made yourself, anyone is welcome to submit a plugin via a **pull request** to the server. Before you submit your plugin, there's a few things you need to know first.
 
+## What you need
 
-## Finding a plugin
+You will need the following things in order to add a plugin to the server.
 
-Bukkit/Spigot has been around since 2011. Since it's been around so long and is very popular, there's many plugins scattered across the Internet. The two most common places to look for plugins are [BukkitDev]() and [SpigotMC Resources](). These two sites have directories and listings of plugins published by their authors. SpigotMC Resources is actively maintained while BukkitDev isn't as actively used anymore. You should search both for plugins that might be interesting or useful.
+* Minecraft account
+* GitHub account (Don't have one? Register for one [here](https://github.com/join)!)
+* [SpigotMC.org](https://www.spigotmc.org) account (optional)
+* Good searching skills
 
-### Requirements
 
-If you find a plugin you want to add to the server, you need to make sure it meets a few basic requirements.
+## Adding a plugin
+
+This Minecraft server is all open source, just like the software and plugins that make it what it is. As a result, you are able to file "issues" for problems on the server and submit "pull requests" to add things to the server. If you know of a plugin or want to find one to do a specific thing, you can open a pull request to add in the plugin.
+
+
+### Finding a plugin
+
+When looking for a plugin, it's important to know the difference between a **mod** and a **plugin**. A Minecraft modification, or "mod", changes the actual Minecraft game client you use. When using a modded game, you can only connect to special servers that support the mod for them to work. Usually this does not include the "regular" multiplayer servers. Spigot is a server software that "replaces" the vanilla Minecraft server software by Mojang. With Spigot, it has an API, or Application Programming Interface, that developers can use to write their own plugins. These plugins work inside of Spigot, so you can use them on the "regular" Minecraft game client.
+
+Bukkit/Spigot has been around since 2011. Since it's been around so long and is very popular, there's many plugins scattered across the Internet. The two most common places to look for plugins are [BukkitDev](http://dev.bukkit.org/) and [SpigotMC Resources](https://www.spigotmc.org/resources/). These two sites have directories and listings of plugins published by their authors. SpigotMC Resources is actively maintained while BukkitDev isn't as actively used anymore. You should search both for plugins that might be interesting or useful.
+
+#### Plugin requirements
+
+If you find a plugin on BukkitDev or SpigotMC Resources you want to add to the server, you need to make sure it meets a few basic requirements.
 
 1. The plugin must be open source in a publicly viewable place, like GitHub.
 2. The plugin must use an [approved license](https://opensource.org/licenses) from the [Open Source Initiative](https://opensource.org/).
