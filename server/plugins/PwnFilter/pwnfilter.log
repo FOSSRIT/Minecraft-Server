@@ -1,0 +1,7 @@
+[2016/05/16 14:09:33] [PwnFilter] Now logging to plugins/PwnFilter/pwnfilter.log at level: ALL
+[2016/05/16 14:09:33] [PwnFilter] Logger debug set to: false
+[2016/05/16 14:09:33] [PwnFilter] Created directory: /home/jflory/Software/FOSS@MAGIC/Minecraft-Server/server/plugins/PwnFilter/rules
+[2016/05/16 14:09:33] [PwnFilter] Created directory: /home/jflory/Software/FOSS@MAGIC/Minecraft-Server/server/plugins/PwnFilter/textfiles
+[2016/05/16 14:09:33] [PwnFilter] Unable to activate PlayerListener.  Error: Rule File not found: /home/jflory/Software/FOSS@MAGIC/Minecraft-Server/server/plugins/PwnFilter/rules/chat.txt
+[2016/05/16 14:09:37] [PwnFilter] Disabling PwnFilter v3.9.1
+[2016/05/16 14:09:37] [PwnFilter] Closing Logfile

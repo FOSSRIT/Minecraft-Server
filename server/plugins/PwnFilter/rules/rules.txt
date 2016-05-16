@@ -1,0 +1,107 @@
+###### BASIC FILTERS
+
+# REPLACE "ass" but not anything else, such as "grass", "glass", "bass", "ambassador", or even "assassin"
+# http://www.regular-expressions.info/wordboundaries.html
+match \bass\b
+then replace ***
+
+# REPLACE F Bomb variants with fudge. Also catches ffffuuuccckkk
+# http://www.regular-expressions.info/repeat.html
+match f+u+c+k+|f+u+k+|f+v+c+k+|f+u+q+
+then randrep fudge|frack|ferp|fork|fnarg
+then warn Watch your language please
+then log
+
+# REPLACE any from a list of naughty words with "meep", then burn the player.
+# http://www.regular-expressions.info/alternation.html
+match cunt|whore|fag|slut|queer|bitch|bastard
+then replace meep
+then burn &4You swear, you get burnt!
+
+# DENY & BAN use of the N word by hooking to another plugins ban command 
+match n[^a]gg+(a|er|uh)
+then console ban &player -s Banned for racism!
+then deny
+then log
+
+# FIX the .command typo with /command
+match ^\.(?=[a-z]+)
+then replace
+then command
+
+# Randrep example and then kill people saying bad things about your server!
+match .*this server sucks.*|.*hate this server.*
+then randrep I love this server!|This server rocks!|This is the greatest server ever!
+then kill
+
+#Male Genitals (Blocks Dick and Penis. Sample: http://i.imgur.com/UXX4ddk.png)
+match \bd\s*i\s*c?\s*k\b|\bp\s*e\s*n(\s|\.)*i\s*s\b
+then replace 
+then log
+
+#Female Chest (Blocks Boob, Breast, Tit. Sample: http://i.imgur.com/VQV5tSW.png)
+match \bb\s*o\s*o\s*b\b|\bb\s*r\s*e\s*a\s*s\s*t(\s*s)?\b|\bt\s*i\s*t(\s*s|\s*t\s*y|\s*t\s*i\s*e\s*s)?\b
+then replace
+then log
+
+#Racism (Blocks nigga. Sample: http://i.imgur.com/dBZ9Kfs.png)
+match \bn\s*i\s*g\s*(g\s*)?(a|a\s*h|e\s*r)?\b
+then replace
+then log
+
+#Sexual Harassment (Blocks lesbian, lez, lesbo, dyke. Sample: http://i.imgur.com/u0S0Imz.png)
+match \bl\s*e(\s*s|\s*z)\s*b?(\s*o|\s*i\s*a\s*n)?\b|\bd\s*y\s*k\s*e\b
+then replace
+then log
+
+#(Blocks lmao, lmfao. Sample: http://i.imgur.com/7B6Fy5j.png) 
+match \bl\s*m(\s*f)?\s*a\s*o\b
+then replace
+then log
+
+
+######  FIXES FOR 'aaaaa', 'hihihihihihhi', 'lolololololol' type spam.
+
+# TRIM a single repeated character to 2 repeats maximum
+# fixes "aaaaaaaaaaaaa"
+match (.)(?=\1\1+)
+then replace
+
+# TRIM 2 repeated characters to 2 repeats maximum:
+# fixes "hihihihihi"
+match (..)(?=\1\1+)
+then replace
+
+# TRIM 3 repeated characters to 2 repeats maximum
+# fixes "lollollollollol"
+match (...)(?=\1\1+)
+then replace
+
+
+
+
+###### COMPLEX FILTERS 
+
+# REPLACE CAPS!!! New in Version 2.0.0!!!  Yes.. not just block or warn but replace with lower
+match (\p{Lu}|\s){6,120}
+then lower
+
+# REPLACE AN IP ADDRESS / DOMAIN NAME and IGNORE ones you don't want to block, replace it with your url, kick the player with a message and log the event.
+match \b\d{1,3}+\p{P}*\d{1,3}+\p{P}*\d{1,3}+\p{P}*\d{1,3}+\b|([\w-\.]+)((?:[\w]+\.)+)([a-zA-Z]{2,4})
+ignore string 192.168.1.1|74.34.194.98|google.com|youtube.com|bukkit.org|minecraft.net|minecraftwiki.net|pwn9.com
+then replace minecraft.rit.edu
+then kick Do not advertise on our server
+then log
+
+
+
+
+###### FUN Filters - use "rewrite" instead of replace to maintain colors
+
+# FUN: rewrite tremor or trem with a pretty colors, using "rewrite"
+match \btremor+\b|\btrem+\b
+then rewrite &bt&cREM&bor&f
+
+# FUN: Troll Planet Minecraft noobs
+match planet minecraft
+then replace Planet Krypton
