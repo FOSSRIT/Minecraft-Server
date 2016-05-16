@@ -44,3 +44,7 @@ If you're just getting started with programming, it's important to have some bac
 ### Writing the plugin
 
 Coming soon…
+
+[blank-bukkit-plugin](https://bitbucket.org/Vertanzil/blank-bukkit-plugin)
+[blank-bungee-plugin](https://bitbucket.org/Vertanzil/blank-bungee-plugin)
+[IntelliJ Minecraft plugin](https://plugins.jetbrains.com/plugin/8327)
