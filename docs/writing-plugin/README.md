@@ -11,6 +11,8 @@ If you want the plugin added to the server, keep these rules and requirements in
 1. Your plugin must be open source (preferably on GitHub).
 2. Your plugin must have an OSI-approved license.
 
+While your plugin doesn't have to be open source, it will have to be open source and licensed if you wish to use it in the official RIT server.
+
 
 ## Getting started
 
