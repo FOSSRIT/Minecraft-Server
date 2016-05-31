@@ -25,7 +25,7 @@ Your workspace is one of the most important parts of getting started. Your devel
 **What you need**:
 
 1. [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (latest version is for Java 8 - use that!)
-2. [git](https://git-scm.com/)
+2. [Git](https://git-scm.com/)
 3. [Apache Maven](https://maven.apache.org/)
 4. Integrated Development Environment (IDE)
  1. [Eclipse](http://www.eclipse.org/) (free and open source)
@@ -49,6 +49,6 @@ If you're just getting started with programming, it's important to have some bac
 
 Coming soon…
 
-* [blank-bukkit-plugin](https://bitbucket.org/Vertanzil/blank-bukkit-plugin)
-* [blank-bungee-plugin](https://bitbucket.org/Vertanzil/blank-bungee-plugin)
+* [Blank-bukkit-plugin](https://bitbucket.org/Vertanzil/blank-bukkit-plugin)
+* [Blank-bungee-plugin](https://bitbucket.org/Vertanzil/blank-bungee-plugin)
 * [IntelliJ Minecraft plugin](https://plugins.jetbrains.com/plugin/8327)
