@@ -25,7 +25,7 @@ Your workspace is one of the most important parts of getting started. Your devel
 **What you need**:
 
 1. [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (latest version is for Java 8 - use that!)
-2. [git](https://git-scm.com/)
+2. [Git](https://git-scm.com/)
 3. [Apache Maven](https://maven.apache.org/)
 4. Integrated Development Environment (IDE)
  1. [Eclipse](http://www.eclipse.org/) (free and open source)
@@ -38,13 +38,17 @@ These are the minimum amount of things you will need to get started. You can hav
 
 There are plenty of online resources available for learning how to create Bukkit/Spigot plugins. There is an [in-depth tutorial](http://wiki.bukkit.org/Plugin_Tutorial) on the Bukkit Wiki. You will also receive assistance and help from instructors for this lesson.
 
-If you're just getting started with programming, it's important to have some background knowledge of the Java programming language. There are [official tutorials](http://docs.oracle.com/javase/tutorial/) offered by Oracle. There's also an excellent series by YouTuber _TheNewBoston_ in a [playlist](https://www.youtube.com/playlist?list=PLFE2CE09D83EE3E28). Taking the time to understand the basic concepts will save you a lot of time and frustration later.
+If you're just getting started with programming, it's important to have some background knowledge of the Java programming language. 
+
+* [official tutorials](http://docs.oracle.com/javase/tutorial/) offered by Oracle. 
+* There's also an excellent series by YouTuber _TheNewBoston_ in a [playlist](https://www.youtube.com/playlist?list=PLFE2CE09D83EE3E28). Taking the time to understand the basic concepts will save you a lot of time and frustration later.
+* You can also check out the tutorial on [Code Academy](https://www.codecademy.com/learn/learn-java)
 
 
 ### Writing the plugin
 
 Coming soon…
 
-[blank-bukkit-plugin](https://bitbucket.org/Vertanzil/blank-bukkit-plugin)
-[blank-bungee-plugin](https://bitbucket.org/Vertanzil/blank-bungee-plugin)
-[IntelliJ Minecraft plugin](https://plugins.jetbrains.com/plugin/8327)
+* [Blank-bukkit-plugin](https://github.com/Vertanzil/Blank-Spigot-Plugin)
+* [Blank-bungee-plugin](https://github.com/Vertanzil/Blank-Bungee-Plugin)
+* [IntelliJ Minecraft plugin](https://plugins.jetbrains.com/plugin/8327)
